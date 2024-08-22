@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: rgb(8, 138, 88);
+    text-align: center;
+}
+h1{
+    font-size: 45px;
+}
+.imp{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+i{
+    color: red;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+}
+.box{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 60px;
+    color: red;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.restButt{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    position: absolute;
+    bottom: 80px;
+    left: 560px;
+    cursor: pointer;
+
+
+}
+.restButt:hover{
+    background-color: hwb(0 19% 81%);
+}
+.restButt:active{
+    background-color: hwb(0 33% 67%);
+}
+#msg{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: aqua;
+}
+.NewButt{
+    position: absolute;
+    bottom: 80px;
+    left: 685px;
+
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.NewButt:hover{
+    background-color: hwb(0 19% 81%);
+}
+.NewButt:active{
+    background-color: hwb(0 33% 67%);
+}
+.hide{
+
+    display: none;
+}
